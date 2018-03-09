@@ -11,7 +11,6 @@ object ParametricSearch {
   
   def containsDuplicates[A <% Ordered[A]](arr:Array[A]):Boolean = {
     arr.distinct.size != arr.size
-    }
   }
   
   def containsDuplicates[A](arr:Array[A], lt:(A,A)=>Boolean):Boolean = {

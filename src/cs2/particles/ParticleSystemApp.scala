@@ -1,6 +1,6 @@
 package cs2.particles
 
-import cs2.util.Vec2
+import cs2.util.Vec2 
 import scalafx.Includes.eventClosureWrapperWithParam
 import scalafx.Includes.jfxGraphicsContext2sfx
 import scalafx.Includes.jfxMouseEvent2sfx
@@ -10,6 +10,9 @@ import scalafx.scene.Scene
 import scalafx.scene.canvas.Canvas
 import scalafx.scene.input.MouseEvent
 import scalafx.scene.image.Image
+import scalafx.scene.input.KeyEvent
+import scalafx.scene.input.KeyCode
+
 
 object ParticleSystemApp extends JFXApp{
   

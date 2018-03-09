@@ -1,5 +1,7 @@
 package cs2.algorithms
 
+import scala.io.Source
+
 object WordSetsMaps {
   def examplesOfSetMethods() {
     //Immutable set operations

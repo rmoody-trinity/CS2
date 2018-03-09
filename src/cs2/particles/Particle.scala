@@ -10,8 +10,9 @@ abstract class Particle(protected var pos:Vec2) {
   
   def display(g:GraphicsContext)
   
-  def timeStep() {
+  def timeStep():Boolean = {
     pos += vel
+    pos.x < -200 || pos.x > 800 || pos.y < -200 || pos.y > 600
   }
   
   def applyForce(acc:Vec2) {
